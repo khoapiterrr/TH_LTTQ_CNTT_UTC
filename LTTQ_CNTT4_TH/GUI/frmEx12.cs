@@ -108,5 +108,10 @@ namespace LTTQ_CNTT4_TH.GUI
             else
                 lblCheck.Text = num + " không phải là số nguyên tố là số nguyên tố";
         }
+
+        private void frmEx12_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

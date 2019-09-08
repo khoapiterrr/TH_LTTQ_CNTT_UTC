@@ -174,6 +174,7 @@
             this.Name = "frmEx12";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmEx12";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx12_FormClosed);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);

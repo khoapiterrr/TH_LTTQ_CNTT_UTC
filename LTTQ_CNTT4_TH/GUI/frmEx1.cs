@@ -155,5 +155,13 @@ namespace LTTQ_CNTT4_TH.GUI
             frmSearchEx1 frm = new frmSearchEx1();
             frm.ShowDialog();
         }
+
+        private void frmEx1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmMain frm = new frmMain();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

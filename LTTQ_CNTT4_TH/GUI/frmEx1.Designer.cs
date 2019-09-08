@@ -249,6 +249,7 @@
             this.Name = "frmEx1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài tập 1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx1_FormClosed);
             this.Load += new System.EventHandler(this.frmEx1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmEx1_KeyDown);
             this.groupBox1.ResumeLayout(false);

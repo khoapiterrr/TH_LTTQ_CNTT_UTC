@@ -82,98 +82,98 @@
             // mnuitem1
             // 
             this.mnuitem1.Name = "mnuitem1";
-            this.mnuitem1.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem1.Size = new System.Drawing.Size(125, 26);
             this.mnuitem1.Text = "Bài 1";
             this.mnuitem1.Click += new System.EventHandler(this.mnuitem1_Click);
             // 
             // mnuitem2
             // 
             this.mnuitem2.Name = "mnuitem2";
-            this.mnuitem2.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem2.Size = new System.Drawing.Size(125, 26);
             this.mnuitem2.Text = "Bài 2";
             this.mnuitem2.Click += new System.EventHandler(this.mnuitem2_Click);
             // 
             // mnuitem3
             // 
             this.mnuitem3.Name = "mnuitem3";
-            this.mnuitem3.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem3.Size = new System.Drawing.Size(125, 26);
             this.mnuitem3.Text = "Bài 3";
             this.mnuitem3.Click += new System.EventHandler(this.mnuitem3_Click);
             // 
             // mnuitem4
             // 
             this.mnuitem4.Name = "mnuitem4";
-            this.mnuitem4.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem4.Size = new System.Drawing.Size(125, 26);
             this.mnuitem4.Text = "Bài 4";
             this.mnuitem4.Click += new System.EventHandler(this.mnuitem4_Click);
             // 
             // mnuitem5
             // 
             this.mnuitem5.Name = "mnuitem5";
-            this.mnuitem5.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem5.Size = new System.Drawing.Size(125, 26);
             this.mnuitem5.Text = "Bài 5";
             this.mnuitem5.Click += new System.EventHandler(this.mnuitem5_Click);
             // 
             // mnuitem6
             // 
             this.mnuitem6.Name = "mnuitem6";
-            this.mnuitem6.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem6.Size = new System.Drawing.Size(125, 26);
             this.mnuitem6.Text = "Bài 6";
             this.mnuitem6.Click += new System.EventHandler(this.mnuitem6_Click);
             // 
             // mnuitem7
             // 
             this.mnuitem7.Name = "mnuitem7";
-            this.mnuitem7.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem7.Size = new System.Drawing.Size(125, 26);
             this.mnuitem7.Text = "Bài 7";
             this.mnuitem7.Click += new System.EventHandler(this.mnuitem7_Click);
             // 
             // mnuitem8
             // 
             this.mnuitem8.Name = "mnuitem8";
-            this.mnuitem8.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem8.Size = new System.Drawing.Size(125, 26);
             this.mnuitem8.Text = "Bài 8";
             this.mnuitem8.Click += new System.EventHandler(this.mnuitem8_Click);
             // 
             // mnuitem9
             // 
             this.mnuitem9.Name = "mnuitem9";
-            this.mnuitem9.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem9.Size = new System.Drawing.Size(125, 26);
             this.mnuitem9.Text = "Bài 9";
             this.mnuitem9.Click += new System.EventHandler(this.mnuitem9_Click);
             // 
             // mnuitem10
             // 
             this.mnuitem10.Name = "mnuitem10";
-            this.mnuitem10.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem10.Size = new System.Drawing.Size(125, 26);
             this.mnuitem10.Text = "Bài 10";
             this.mnuitem10.Click += new System.EventHandler(this.mnuitem10_Click);
             // 
             // mnuitem11
             // 
             this.mnuitem11.Name = "mnuitem11";
-            this.mnuitem11.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem11.Size = new System.Drawing.Size(125, 26);
             this.mnuitem11.Text = "Bài 11";
             this.mnuitem11.Click += new System.EventHandler(this.mnuitem11_Click);
             // 
             // mnuitem12
             // 
             this.mnuitem12.Name = "mnuitem12";
-            this.mnuitem12.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem12.Size = new System.Drawing.Size(125, 26);
             this.mnuitem12.Text = "Bài 12";
             this.mnuitem12.Click += new System.EventHandler(this.mnuitem12_Click);
             // 
             // mnuitem13
             // 
             this.mnuitem13.Name = "mnuitem13";
-            this.mnuitem13.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem13.Size = new System.Drawing.Size(125, 26);
             this.mnuitem13.Text = "Bài 13";
             this.mnuitem13.Click += new System.EventHandler(this.mnuitem13_Click);
             // 
             // mnuitem14
             // 
             this.mnuitem14.Name = "mnuitem14";
-            this.mnuitem14.Size = new System.Drawing.Size(216, 26);
+            this.mnuitem14.Size = new System.Drawing.Size(125, 26);
             this.mnuitem14.Text = "Bài 14";
             this.mnuitem14.Click += new System.EventHandler(this.mnuitem14_Click);
             // 
@@ -188,6 +188,8 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài tập thực hành lập trình trực quan";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -46,8 +46,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnExit = new System.Windows.Forms.Button();
             this.lstClient = new System.Windows.Forms.ListBox();
+            this.btnExit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -241,16 +241,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách khách hàng đặt tua";
             // 
-            // btnExit
-            // 
-            this.btnExit.Location = new System.Drawing.Point(651, 330);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(124, 37);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Thoát";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // lstClient
             // 
             this.lstClient.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -260,6 +250,16 @@
             this.lstClient.Name = "lstClient";
             this.lstClient.Size = new System.Drawing.Size(444, 285);
             this.lstClient.TabIndex = 0;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(651, 330);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(124, 37);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmEx3
             // 
@@ -272,6 +272,7 @@
             this.Name = "frmEx3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài tập 3";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx3_FormClosed);
             this.Load += new System.EventHandler(this.frmEx3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -94,5 +94,14 @@ namespace LTTQ_CNTT4_TH
             frm.ShowDialog();
             this.Close();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

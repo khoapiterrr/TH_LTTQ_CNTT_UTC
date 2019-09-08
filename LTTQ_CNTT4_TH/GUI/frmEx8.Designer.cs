@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNum = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lstNum = new System.Windows.Forms.ListBox();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.lstNum = new System.Windows.Forms.ListBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnTang = new System.Windows.Forms.Button();
@@ -69,16 +69,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dãy số";
             // 
-            // lstNum
-            // 
-            this.lstNum.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lstNum.FormattingEnabled = true;
-            this.lstNum.ItemHeight = 16;
-            this.lstNum.Location = new System.Drawing.Point(3, 18);
-            this.lstNum.Name = "lstNum";
-            this.lstNum.Size = new System.Drawing.Size(191, 228);
-            this.lstNum.TabIndex = 0;
-            // 
             // btnXoa
             // 
             this.btnXoa.Location = new System.Drawing.Point(55, 265);
@@ -88,6 +78,16 @@
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // lstNum
+            // 
+            this.lstNum.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lstNum.FormattingEnabled = true;
+            this.lstNum.ItemHeight = 16;
+            this.lstNum.Location = new System.Drawing.Point(3, 18);
+            this.lstNum.Name = "lstNum";
+            this.lstNum.Size = new System.Drawing.Size(191, 228);
+            this.lstNum.TabIndex = 0;
             // 
             // btnExit
             // 
@@ -144,6 +144,7 @@
             this.Name = "frmEx8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmEx8";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx8_FormClosed);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

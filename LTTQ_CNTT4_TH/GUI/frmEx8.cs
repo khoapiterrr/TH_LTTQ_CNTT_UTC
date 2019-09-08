@@ -88,5 +88,10 @@ namespace LTTQ_CNTT4_TH.GUI
             var soChanDauTien = _lstDaySo.Find(x => (x % 2 == 0));
             lstNum.SelectedItem = soChanDauTien;
         }
+
+        private void frmEx8_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

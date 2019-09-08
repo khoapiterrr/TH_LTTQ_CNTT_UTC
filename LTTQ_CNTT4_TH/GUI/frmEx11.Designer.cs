@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmEx11
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "frmEx11";
             this.Text = "frmEx11";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx11_FormClosed);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

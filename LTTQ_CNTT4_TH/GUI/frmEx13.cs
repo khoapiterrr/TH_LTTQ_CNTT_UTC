@@ -43,6 +43,7 @@ namespace LTTQ_CNTT4_TH.GUI
                 txtNum.Focus();
                 return;
             }
+            _lstNumber.Clear();
             var num = int.Parse(txtNum.Text);
             Random rnd = new Random();
             while (num-- != 0)
@@ -106,6 +107,11 @@ namespace LTTQ_CNTT4_TH.GUI
             {
                 e.Handled = true;
             }
+        }
+
+        private void frmEx13_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

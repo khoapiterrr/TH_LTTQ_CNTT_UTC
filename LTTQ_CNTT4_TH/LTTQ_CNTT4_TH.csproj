@@ -143,9 +143,16 @@
     <Compile Include="GUI\frmSearchEx1.Designer.cs">
       <DependentUpon>frmSearchEx1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frmSearchEx2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSearchEx2.Designer.cs">
+      <DependentUpon>frmSearchEx2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ClientEx1.cs" />
     <Compile Include="Model\ClientEx2.cs" />
     <Compile Include="Model\ClientEx3.cs" />
+    <Compile Include="Model\Ex14.cs" />
     <Compile Include="Model\SubjectEx4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -155,11 +162,20 @@
     <EmbeddedResource Include="GUI\frmEx1.resx">
       <DependentUpon>frmEx1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx10.resx">
+      <DependentUpon>frmEx10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx11.resx">
+      <DependentUpon>frmEx11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmEx12.resx">
       <DependentUpon>frmEx12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmEx13.resx">
       <DependentUpon>frmEx13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx14.resx">
+      <DependentUpon>frmEx14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmEx2.resx">
       <DependentUpon>frmEx2.cs</DependentUpon>
@@ -170,11 +186,26 @@
     <EmbeddedResource Include="GUI\frmEx4.resx">
       <DependentUpon>frmEx4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx5.resx">
+      <DependentUpon>frmEx5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx6.resx">
+      <DependentUpon>frmEx6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx7.resx">
+      <DependentUpon>frmEx7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmEx8.resx">
       <DependentUpon>frmEx8.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx9.resx">
+      <DependentUpon>frmEx9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmSearchEx1.resx">
       <DependentUpon>frmSearchEx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSearchEx2.resx">
+      <DependentUpon>frmSearchEx2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

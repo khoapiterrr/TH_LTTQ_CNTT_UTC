@@ -118,5 +118,10 @@ namespace LTTQ_CNTT4_TH.GUI
             DataContext.ClientEx3Context.Add(data);
             LoadData();
         }
+
+        private void frmEx3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

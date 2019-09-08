@@ -128,5 +128,16 @@ namespace LTTQ_CNTT4_TH.GUI
                 this.Close();
             }
         }
+
+        private void frmEx2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmSearchEx2 frm = new frmSearchEx2();
+            frm.ShowDialog();
+        }
     }
 }

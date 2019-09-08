@@ -116,5 +116,10 @@ namespace LTTQ_CNTT4_TH.GUI
             txtTongDiem.Text = _lstDKMonHoc.Select(x => x.SoTin * float.Parse(x.Diem)).Sum().ToString();
             txtTB.Text = (double.Parse(txtTongDiem.Text) / double.Parse(txtTongTin.Text)).ToString(".00");
         }
+
+        private void frmEx4_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

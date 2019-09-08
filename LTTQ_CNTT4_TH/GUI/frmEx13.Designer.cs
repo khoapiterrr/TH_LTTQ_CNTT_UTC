@@ -164,6 +164,7 @@
             this.Name = "frmEx13";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmEx13";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx13_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

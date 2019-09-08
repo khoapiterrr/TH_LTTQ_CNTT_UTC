@@ -86,6 +86,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Tìm kiếm";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // lstKH
             // 
@@ -299,6 +300,7 @@
             this.Name = "frmEx2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài tập 2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEx2_FormClosed);
             this.Load += new System.EventHandler(this.frmEx2_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

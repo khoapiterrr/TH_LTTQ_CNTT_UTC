@@ -16,5 +16,13 @@ namespace LTTQ_CNTT4_TH.GUI
         {
             InitializeComponent();
         }
+
+        private void frmEx10_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmMain frm = new frmMain();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }
