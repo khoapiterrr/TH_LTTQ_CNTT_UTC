@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LTTQ_CNTT4_TH
+namespace LTTQ_CNTT4_TH.GUI
 {
-    public partial class Form1 : Form
+    public partial class frmEx11 : Form
     {
-        public Form1()
+        public frmEx11()
         {
             InitializeComponent();
         }
