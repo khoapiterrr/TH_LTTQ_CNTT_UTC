@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13A80775-EC88-4222-9546-DF3676E5CF5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LTTQ_CNTT4_TH</RootNamespace>
+    <AssemblyName>LTTQ_CNTT4_TH</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataContext.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx1.Designer.cs">
+      <DependentUpon>frmEx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx10.Designer.cs">
+      <DependentUpon>frmEx10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx11.Designer.cs">
+      <DependentUpon>frmEx11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx12.Designer.cs">
+      <DependentUpon>frmEx12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx13.Designer.cs">
+      <DependentUpon>frmEx13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx14.Designer.cs">
+      <DependentUpon>frmEx14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx2.Designer.cs">
+      <DependentUpon>frmEx2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx3.Designer.cs">
+      <DependentUpon>frmEx3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx4.Designer.cs">
+      <DependentUpon>frmEx4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx5.Designer.cs">
+      <DependentUpon>frmEx5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx6.Designer.cs">
+      <DependentUpon>frmEx6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx7.Designer.cs">
+      <DependentUpon>frmEx7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx8.Designer.cs">
+      <DependentUpon>frmEx8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmEx9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmEx9.Designer.cs">
+      <DependentUpon>frmEx9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmSearchEx1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSearchEx1.Designer.cs">
+      <DependentUpon>frmSearchEx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmSearchEx2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSearchEx2.Designer.cs">
+      <DependentUpon>frmSearchEx2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ClientEx1.cs" />
+    <Compile Include="Model\ClientEx2.cs" />
+    <Compile Include="Model\ClientEx3.cs" />
+    <Compile Include="Model\Ex14.cs" />
+    <Compile Include="Model\Ex9.cs" />
+    <Compile Include="Model\SubjectEx4.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx1.resx">
+      <DependentUpon>frmEx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx10.resx">
+      <DependentUpon>frmEx10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx11.resx">
+      <DependentUpon>frmEx11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx12.resx">
+      <DependentUpon>frmEx12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx13.resx">
+      <DependentUpon>frmEx13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx14.resx">
+      <DependentUpon>frmEx14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx2.resx">
+      <DependentUpon>frmEx2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx3.resx">
+      <DependentUpon>frmEx3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx4.resx">
+      <DependentUpon>frmEx4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx5.resx">
+      <DependentUpon>frmEx5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx6.resx">
+      <DependentUpon>frmEx6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx7.resx">
+      <DependentUpon>frmEx7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx8.resx">
+      <DependentUpon>frmEx8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmEx9.resx">
+      <DependentUpon>frmEx9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSearchEx1.resx">
+      <DependentUpon>frmSearchEx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSearchEx2.resx">
+      <DependentUpon>frmSearchEx2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
